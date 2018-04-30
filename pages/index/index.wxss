@@ -18,4 +18,8 @@
 
 .usermotto {
   margin-top: 200px;
+  color: #02c54c;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px;
 }

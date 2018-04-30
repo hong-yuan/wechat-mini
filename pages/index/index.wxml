@@ -10,4 +10,8 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <!-- contact button -->
+  <view class="weui-agree">
+    <contact-button type="default-dark" size="50" session-from="goddady" />
+  </view>
 </view>
