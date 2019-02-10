@@ -12,7 +12,7 @@ A POC WeChat mini-program.
   the simulator would reload the UI to reflect the change.
 - To rebuild on demand, you could also click the `编译` button and time to trigger
   the same process mentioned above.
-- To test on a real phone rqther than the IDE simulator, click the `预览` button.
+- To test on a real phone rather than the IDE simulator, click the `预览` button.
   A QR code would be generated and popped up for you to scan. Enter WeChat on
   your test phone and scan the QR code. The build will be installed on the phone.
 
