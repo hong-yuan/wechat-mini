@@ -4,7 +4,7 @@ Page({
   data: {
     focus: false,
     openId: '',
-    inputValue: 'Hello, what\'s up?',
+    inputValue: '',
     history: 'Checking out chat history...',
     scrollTop: 5000,
     chatApi: 'https://www.test-godaddy.xyz/mp/api/v1/',

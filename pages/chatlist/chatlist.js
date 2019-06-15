@@ -4,6 +4,7 @@ Page({
   data: {
     chatApi: 'https://www.test-godaddy.xyz/mp/api/v1/',
     openIdList: [
+      /*
       {
         openId: 'oZM354ocd02nhA6z0cGqlIew2fKo', 
         nickName: 'Hong',
@@ -18,7 +19,7 @@ Page({
         openId: 'oZM354tYoRB9eVjjNiGmB7PZzwh0',
         nickName: 'Cindy',
         avatarUrl: '',
-      }
+      }*/
     ]
   },
   loadChatSessions: function() {

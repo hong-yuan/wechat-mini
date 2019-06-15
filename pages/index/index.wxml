@@ -13,7 +13,7 @@
     session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
     hover-class="button-hover"
     class="button">
-    Customer Service
+    Customer Service Chat
     </button>
   </view>
 </view>

@@ -9,22 +9,18 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#cd5c5c",
-    "navigationBarTitleText": "Toy | 微玩",
+    "navigationBarTitleText": "Customer Care | 微聊",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "Home"
+        "text": "Customer"
       },
       {
         "pagePath": "pages/chatlist/chatlist",
-        "text": "Chat"
-      },
-      {
-        "pagePath": "pages/myaccount/myaccount",
-        "text": "My"
+        "text": "Agent"
       }
     ]
   },
