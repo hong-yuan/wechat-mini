@@ -1,0 +1,9 @@
+<scroll-view class="conversation" scroll-y scroll-top="{{scrollTop}}" scroll-with-animation>
+  <text>{{history}}</text>
+</scroll-view>
+<view class="textpanel">
+  <input class="textbox" name="answer" auto-focus="true" 
+  placeholder="Answer customer question here"
+  bindinput="bindKeyInput"/>
+  <button class="button" hover-class="button-hover" bindtap="sendBtnClick">Send</button>
+</view>

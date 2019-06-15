@@ -2,9 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/domain/domain",
+    "pages/care/care",
     "pages/myaccount/myaccount",
-    "pages/cart/cart"
+    "pages/chatlist/chatlist"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,12 +19,8 @@
         "text": "Home"
       },
       {
-        "pagePath": "pages/domain/domain",
-        "text": "Location"
-      },
-      {
-        "pagePath": "pages/cart/cart",
-        "text": "Cart"
+        "pagePath": "pages/chatlist/chatlist",
+        "text": "Chat"
       },
       {
         "pagePath": "pages/myaccount/myaccount",
@@ -36,5 +32,6 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }

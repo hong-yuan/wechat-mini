@@ -19,35 +19,48 @@
   color: #585858;
 }
 
-.usermotto {
-  margin-top: 150px;
-  background-color: indianred;
-  border-radius: 5%;
+.conversation {
+  height: 380px;
+  width: auto;
+  margin: 10rpx;
+  background-color: lightgray;
+  border-radius: 1%;
   border-style: solid;
   border-width: thin;
   border-color: #585858;
-  color: white;
+  color: darkblue;
   font-size: large;
-  font-weight: bold;
-  padding: 15px;
+  padding: 5px;
 }
-.contact {
-  margin-top: 150px;
-  margin: 30rpx;
-  padding: 50px;
-}
-.button {
+
+.textpanel {
+  margin: 10rpx;
   background-color: indianred;
-  color: white;
-  font-size: large;
-  font-weight: bold;
+  border-radius: 3%;
   border-style: solid;
   border-width: thin;
   border-color: lightgray;
+  color: whitesmoke;
+  padding: 15px;
+}
+.textbox {
+  color: black;
+  font-size: medium;
+  background-color: white;
+  border-radius: 3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #585858;
+  padding: 10px;
+}
+.button {
+  margin-top: 20rpx;
+  font-weight: bold;
+  color: indianred;
 }
 .button-hover {
-  background-color: lightgray;
-  color: indianred;
+  background-color: lightgrey;
+  color: darkblue;
   border-style: solid;
   border-width: thin;
   border-color: lightgray;

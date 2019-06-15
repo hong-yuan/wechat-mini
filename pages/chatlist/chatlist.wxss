@@ -1,0 +1,31 @@
+.navigator-hover {
+  color: white;
+  background-color: darkblue;
+}
+.session {
+  margin: 10rpx;
+  background-color: lightgray;
+  border-radius: 3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  color: darkblue;
+  padding: 10px;
+}
+.name {
+  font-weight: bold;
+}
+.openid {
+  font-size: small;
+  color: darkolivegreen;
+}
+.avatar-small {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 10rpx;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  align-content: space-around;
+}

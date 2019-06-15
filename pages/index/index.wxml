@@ -7,11 +7,13 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-  <!-- contact button -->
+  <!-- contact button to enter customer service -->
   <view class="contact">
-    <contact-button type="default-dark" size="50" session-from="goddady" />
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Customer Service
+    </button>
   </view>
 </view>
