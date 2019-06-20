@@ -21,7 +21,7 @@
 
 .usermotto {
   margin-top: 150px;
-  background-color: indianred;
+  background-color: #03c44b;
   border-radius: 5%;
   border-style: solid;
   border-width: thin;
@@ -37,7 +37,7 @@
   padding: 50px;
 }
 .button {
-  background-color: indianred;
+  background-color: #03c44b;
   color: white;
   font-size: large;
   font-weight: bold;
@@ -46,8 +46,8 @@
   border-color: lightgray;
 }
 .button-hover {
-  background-color: lightgray;
-  color: indianred;
+  background-color: whitesmoke;
+  color: #03c44b;
   border-style: solid;
   border-width: thin;
   border-color: lightgray;

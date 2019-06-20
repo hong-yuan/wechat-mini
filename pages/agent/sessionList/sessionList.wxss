@@ -4,12 +4,12 @@
 }
 .session {
   margin: 10rpx;
-  background-color: lightgray;
+  background-color: whitesmoke;
   border-radius: 3%;
   border-style: solid;
   border-width: thin;
   border-color: lightgray;
-  color: darkblue;
+  color: #013220;
   padding: 10px;
 }
 .name {
@@ -17,7 +17,7 @@
 }
 .openid {
   font-size: small;
-  color: darkolivegreen;
+  color: darkgoldenrod;
 }
 .avatar-small {
   width: 50rpx;

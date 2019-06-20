@@ -28,13 +28,15 @@ Page({
 
     // determine to send text, MP link, or web link
     var textToSend = that.data.inputValue;
+    if (textToSend === '') return;
+
     var inputFormat = 0;
     if (that.data.inputValue == '@1') {   // MP link
       inputFormat = 1;
-      textToSend = 'Checkout this mini-program link';
+      textToSend = '[Shared a mini-program link]';
     } else if (that.data.inputValue == '@2') {  // web link
       inputFormat = 2;
-      textToSend = 'Checkout this web link';
+      textToSend = '[Shared a web link]';
     } else {
       inputFormat = 0;
       textToSend = that.data.inputValue;

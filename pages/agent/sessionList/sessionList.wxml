@@ -1,6 +1,6 @@
 <view wx:for="{{openIdList}}" wx:key="index">
   <view>
-    <navigator url="../care/care?openId={{item.openId}}" 
+    <navigator url="../activeSession/activeSession?openId={{item.openId}}" 
     class="session" hover-class="navigator-hover">
       <!-- image class="avatar-small" src="{{item.avatarUrl}}" background-size="cover"></image -->
       <text class="name">{{item.nickName}}\n</text>

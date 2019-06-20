@@ -23,19 +23,19 @@
   height: 380px;
   width: auto;
   margin: 10rpx;
-  background-color: lightgray;
+  background-color: whitesmoke;
   border-radius: 1%;
   border-style: solid;
   border-width: thin;
-  border-color: #585858;
-  color: darkblue;
+  border-color: lightgray;
+  color: #013220;
   font-size: large;
   padding: 5px;
 }
 
 .textpanel {
   margin: 10rpx;
-  background-color: indianred;
+  background-color: whitesmoke;
   border-radius: 3%;
   border-style: solid;
   border-width: thin;
@@ -50,17 +50,18 @@
   border-radius: 3%;
   border-style: solid;
   border-width: thin;
-  border-color: #585858;
+  border-color: lightgray;
   padding: 10px;
 }
 .button {
   margin-top: 20rpx;
   font-weight: bold;
-  color: indianred;
+  color: white;
+  background-color: #03c44b
 }
 .button-hover {
-  background-color: lightgrey;
-  color: darkblue;
+  background-color: white;
+  color: #03c44b;
   border-style: solid;
   border-width: thin;
   border-color: lightgray;
