@@ -1,19 +1,55 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="myPage">
+  <view class="header common-background">
+    <view class="header-left padding-left-32 padding-right-32">
+      <view class="open-data-user" hidden="{{ !openDataUserDisplay }}">
+        <open-data mode="aspectFit" type="userAvatarUrl"></open-data>
+      </view>
+      <image class="open-data-user" mode="scaleToFill" hidden="{{ openDataUserDisplay }}" src="{{ userInfo.avatarUrl }}">
+      </image>
+      <view class="get-user-avatar" hidden="{{ !displayGetAvatarBtn }}" bindtap="checkNetwork">
+        <button class="get-user-avatar1" type="default" open-type="{{getUserInfo}}" bindgetuserinfo="bindGetUserInfo">
+          Get Avatar
+        </button>
+      </view>
+    </view>
+    <view class="header-right padding-left-32 padding-right-32" bindtap="toMyAccountCenter">
+      <view class="user-right-top">
+        <view class="user-email">{{ userInfo.nickName }}</view>
+      </view>
+      <view class="user-number">
+        Customer ID:
+        <text class="profileData_shopperId">{{ shopperId }}</text>
+      </view>
+    </view>
   </view>
-  <!-- contact button to enter customer service -->
-  <view class="contact">
-    <button open-type="contact" 
-    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
-    hover-class="button-hover"
-    class="button">
-    Customer Service Chat
-    </button>
+  <view class="content">
+    <view wx:for="{{myList}}" wx:key="index">
+      <navigator wx:if="{{item.listId != 'feedback'}}"
+        class="content-list padding-left-32 {{ item.listId == 'myProducts' || item.listId == 'myOrders'?'content-list-after':''}}{{ item.listId == 'manageAutoRenew'?'content-list-before':''}}"
+        target="" url="{{ item.navUrl }}" id="{{ item.listId }}">
+        <image class="list-img" src="{{ item.classImg }}"></image>
+        <view class="list-right {{ item.listId == 'myProducts'|| item.listId == 'myOrders'?'list-right-after':''}}">
+          <view class="list-con">{{ item.content }}</view>
+          <view class="{{ item.totalLength == 1 ? 'list-right-red-tip' : 'list-right-red-tip1' }}" wx:if="{{ item.total > 0}}">
+            {{item.total}}
+          </view>
+          <view class="padding-right-32 list-right-img">
+            <image class="icon-48" src="{{ item.rightImg }}"></image>
+          </view>
+        </view>
+      </navigator>
+      <button wx:else class="content-list padding-left-32 button_box" open-type="feedback">
+        <image class="list-img" src="{{ item.classImg }}"></image>
+        <view class="list-right {{ item.listId == 'myProducts'|| item.listId == 'myOrders'?'list-right-after':''}}">
+          <view class="list-con">{{ item.content }}</view>
+          <view class="list-right-red-tip" wx:if="{{ item.total > 0}}">
+            {{ item.total }}
+          </view>
+          <view class="padding-right-32 list-right-img">
+            <image class="icon-48" src="{{ item.rightImg }}"></image>
+          </view>
+        </view>
+      </button>
+    </view>
   </view>
 </view>

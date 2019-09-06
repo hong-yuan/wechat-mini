@@ -1,0 +1,75 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #585858;
+}
+
+.userinfo-nickname {
+  color: #585858;
+}
+
+.usermotto {
+  margin-top: 150px;
+  background-color: #03c44b;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #585858;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px;
+}
+.contact {
+  margin: 20rpx;
+  padding: 15px;
+}
+.button {
+  background-color: #03c44b;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+.button-hover {
+  background-color: whitesmoke;
+  color: #03c44b;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+
+.textpanel {
+  margin: 10rpx;
+  background-color: whitesmoke;
+  border-radius: 3%;
+  border-style: hidden;
+  border-width: thin;
+  border-color: lightgray;
+  color: whitesmoke;
+  padding: 15px;
+}
+.textbox {
+  margin: 5px;
+  color: black;
+  font-size: medium;
+  background-color: white;
+  border-radius: 3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 10px;
+}

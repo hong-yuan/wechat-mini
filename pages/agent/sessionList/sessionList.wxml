@@ -4,7 +4,8 @@
     class="session" hover-class="navigator-hover">
       <!-- image class="avatar-small" src="{{item.avatarUrl}}" background-size="cover"></image -->
       <text class="name">{{item.nickName}}\n</text>
-      <text class="openid">{{item.openId}}</text>
+      <text class="openid">{{item.avatarUrl}}</text>
+      <!-- text class="openid">{{item.openId}}</text -->
     </navigator>
   </view>
 </view>

@@ -2,9 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
+    "pages/shopper/shopper",
     "pages/agent/sessionList/sessionList",
-    "pages/agent/activeSession/activeSession",
-    "pages/myaccount/myaccount"
+    "pages/agent/activeSession/activeSession"
   ],
   "window": {
     "backgroundTextStyle": "light",

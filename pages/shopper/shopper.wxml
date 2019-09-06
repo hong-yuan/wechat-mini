@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="myPage">
+<!-- User input Shopper ID and product -->
+  <view class="textpanel">
+    <input class="textbox" name="shopperIdInput" auto-focus="true" 
+    placeholder="Enter Shopper ID (default {{shopperId}})"
+    bindinput="bindShopperKeyInput"/>
+    <input class="textbox" name="productIdInput" auto-focus="true" 
+    placeholder="Enter Product ID (default {{productId}})"
+    bindinput="bindProductKeyInput"/>
+  </view>
+  <!-- contact button to enter customer service -->
+  <view class="contact">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}},{{shopperId}},{{productId}}" 
+    hover-class="button-hover"
+    class="button">
+    Customer Service Live Chat
+    </button>
+  </view>
+  <!-- text>{{shopperId}},{{productId}}</text -->
+</view>
