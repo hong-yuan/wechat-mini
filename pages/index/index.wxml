@@ -6,7 +6,15 @@
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
+    <!-- daily report -->
+    <view>
+      <text class="title">Today's Total</text>
+    </view>
+    <view>
+      <text class="report">$888.99</text>
+    </view>
   </view>
+
   <!-- contact button to enter customer service -->
   <view class="contact">
     <button open-type="contact" 

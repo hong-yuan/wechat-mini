@@ -31,6 +31,22 @@
   font-weight: bold;
   padding: 15px;
 }
+
+.title {
+  color: #585858;
+  font-size: medium;
+  font-weight: bold;
+  padding: 15px;
+  margin-top: 500px;
+}
+
+.report {
+  color: #03c44b;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 15px;
+}
+
 .contact {
   margin-top: 150px;
   margin: 30rpx;

@@ -1,16 +1,39 @@
 <!--pages/seller/seller.wxml-->
-<view>
-<text>Upload Product</text>
-</view>
-<view>
-<text>Publish Products</text>
-</view>
-<view>
-<text>Products History</text>
-</view>
-<view>
-<text>Inventory List</text>
-</view>
-<view>
-<text>Sale Status</text>
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <!-- daily report -->
+    <view>
+      <text class="userinfo-nickname">Today's Total</text>
+    </view>
+    <view>
+      <text class="report">$888.99</text>
+    </view>
+  </view>
+
+  <!-- contact button to enter customer service -->
+  <view class="action">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Upload Product
+    </button>
+  </view>
+  <view class="action">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Publish Product
+    </button>
+  </view>
+  <view class="action">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Product Management
+    </button>
+  </view>
 </view>

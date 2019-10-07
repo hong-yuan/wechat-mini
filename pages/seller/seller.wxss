@@ -1,1 +1,77 @@
 /* pages/seller/seller.wxss */
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #585858;
+}
+
+.userinfo-nickname {
+  color: #585858;
+}
+
+.usermotto {
+  margin-top: 150px;
+  background-color: #03c44b;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #585858;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.title {
+  color: #585858;
+  font-size: medium;
+  font-weight: bold;
+  padding: 15px;
+  margin-top: 500px;
+}
+
+.report {
+  color: #03c44b;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+.contact {
+  margin-top: 150px;
+  margin: 30rpx;
+  padding: 50px;
+}
+
+.action {
+  margin: 10rpx;
+  padding: 30px;
+}
+
+.button {
+  background-color: #03c44b;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+.button-hover {
+  background-color: whitesmoke;
+  color: #03c44b;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
