@@ -8,10 +8,16 @@
     </block>
     <!-- daily report -->
     <view>
-      <text class="title">Today's Total</text>
+      <text class="title">What I sold</text>
     </view>
     <view>
       <text class="report">$888.99</text>
+    </view>
+    <view>
+      <text class="title">What I bought</text>
+    </view>
+    <view>
+      <text class="report">$666.88</text>
     </view>
   </view>
 

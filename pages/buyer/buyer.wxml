@@ -1,13 +1,40 @@
 <!--pages/buyer/buyer.wxml-->
-<view>
-<text>Hot Products</text>
-</view>
-<view>
-<text>Search Products</text>
-</view>
-<view>
-<text>List Products</text>
-</view>
-<view>
-<text>Product Preference</text>
+<!--pages/seller/seller.wxml-->
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <!-- daily report -->
+    <view>
+      <text class="userinfo-nickname">Product Listing</text>
+    </view>
+    <view>
+      <text class="report">Cool Deals</text>
+    </view>
+  </view>
+
+  <!-- contact button to enter customer service -->
+  <view class="action">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Search Products
+    </button>
+  </view>
+  <view class="action">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Publish Product
+    </button>
+  </view>
+  <view class="action">
+    <button open-type="contact" 
+    session-from="{{userInfo.nickName}},{{userInfo.avatarUrl}}" 
+    hover-class="button-hover"
+    class="button">
+    Product Preference
+    </button>
+  </view>
 </view>

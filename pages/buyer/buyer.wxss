@@ -1,4 +1,5 @@
-/* pages/buyer/buyer.wxss */
+/* pages/seller/seller.wxss */
+/**index.wxss**/
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -31,11 +32,33 @@
   font-weight: bold;
   padding: 15px;
 }
+
+.title {
+  color: #585858;
+  font-size: medium;
+  font-weight: bold;
+  padding: 15px;
+  margin-top: 500px;
+}
+
+.report {
+  color: #03c44b;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 15px;
+}
+
 .contact {
   margin-top: 150px;
   margin: 30rpx;
   padding: 50px;
 }
+
+.action {
+  margin: 10rpx;
+  padding: 30px;
+}
+
 .button {
   background-color: #03c44b;
   color: white;

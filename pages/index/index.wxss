@@ -36,8 +36,8 @@
   color: #585858;
   font-size: medium;
   font-weight: bold;
-  padding: 15px;
-  margin-top: 500px;
+  padding: 15rpx;
+  margin: 20rpx;
 }
 
 .report {
