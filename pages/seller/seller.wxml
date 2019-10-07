@@ -1,0 +1,16 @@
+<!--pages/seller/seller.wxml-->
+<view>
+<text>Upload Product</text>
+</view>
+<view>
+<text>Publish Products</text>
+</view>
+<view>
+<text>Products History</text>
+</view>
+<view>
+<text>Inventory List</text>
+</view>
+<view>
+<text>Sale Status</text>
+</view>

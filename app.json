@@ -4,7 +4,10 @@
     "pages/logs/logs",
     "pages/agent/sessionList/sessionList",
     "pages/agent/activeSession/activeSession",
-    "pages/myaccount/myaccount"
+    "pages/myaccount/myaccount",
+    "pages/seller",
+    "pages/seller/seller",
+    "pages/buyer/buyer"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,8 +24,12 @@
         "text": "Customer"
       },
       {
-        "pagePath": "pages/agent/sessionList/sessionList",
-        "text": "Agent"
+        "pagePath": "pages/seller/seller",
+        "text": "Seller"
+      },
+      {
+        "pagePath": "pages/buyer/buyer",
+        "text": "Buyer"
       }
     ]
   },
